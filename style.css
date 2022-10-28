@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-image: url(s.webp);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  width:500;
+  height: auto;
+  color: aliceblue;
+  
+  font-family: 'Nanum Gothic', sans-serif;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: aqua;
+  background-color:  #100606;
+  opacity: 0.5;
+}
+h1{
+  color:aquamarine;
+  font-size: 2em;
+  
+
+  padding: 10px;
+}
+  
+h4{
+  color: azure;
+}
+button{
+  width: 200px;
+  height: 50px;
+  border-radius: 400px;
+  border-color: none;
+}
+.my-profile{
+  border-radius: 400px;
+  width: 300px;
+  margin: 50px auto 50px auto;
+}
+.code-img{
+  width: 450px;
+  border-radius: 400px;
+  margin: 10px auto 10px auto;
+  opacity: 0.2;
+}
+#footer{
+  margin: 0px;
+  padding: 30px;
+  font-weight: 1000;
+  background-color: rgb(50, 55, 151);
+  opacity: 0.3;
+  
+}
+.mail a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.text-red{
+  color: rgb(136, 142, 164);
+  font-weight: 1000;
+  font-size: 30px;
+}
+.text-gray{
+  color: rgb(159, 178, 216);
+}
